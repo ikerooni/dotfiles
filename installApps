@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo pacman -S tlp acpi_call rxvt-unicode feh youtube-dl mpv 
+sudo systemctl tlp.service tlp-sleep.service
+sudo tlp start
+yaourt -S bdf-tewi-git llpp paper-icon-theme-git --noconfirm
