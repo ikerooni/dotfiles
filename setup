@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S tlp acpi_call rxvt-unicode feh youtube-dl mpv exfa-utils chromium transmission-gtk xf86-input-synaptics
+sudo pacman -S tlp acpi_call rxvt-unicode feh youtube-dl mpv exfa-utils chromium transmission-gtk xf86-input-synaptics git gparted openssh scrot 
 sudo systemctl tlp.service tlp-sleep.service
 sudo tlp start
 yaourt -S bdf-tewi-git llpp paper-icon-theme-git --noconfirm
